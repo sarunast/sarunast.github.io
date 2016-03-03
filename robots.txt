@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /old-website/
+Disallow: /cv/cv/
+Disallow: /cv/fonts/
+Disallow: /cv/fontawesome.sty
+Disallow: /cv/cv.tex
+Disallow: /cv/awesome-cv.cls
