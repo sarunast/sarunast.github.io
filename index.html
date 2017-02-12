@@ -21,12 +21,3 @@ layout: default
   </p>
 
 </article>
-
-<h2>Latest blog posts</h2>
-<p class="posts">
-  {% for post in site.posts %}
-  <span style="display: block; padding-bottom: 3px">
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m" }})
-  </span>
-  {% endfor %}
-</p>
